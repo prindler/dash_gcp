@@ -12,7 +12,7 @@ app = Dash()
 
 # App layout
 app.layout = [
-    html.Div(children="My First App with Data"),
+    html.Div(children="My First App with Data, deployed to GCP Cloud Run!!!"),
     dash_table.DataTable(data=df.to_dict("records"), page_size=10),
 ]
 
