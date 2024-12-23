@@ -6,6 +6,6 @@ COPY . ./
 
 RUN uv sync --frozen
 
-EXPOSE 8080
+EXPOSE $PORT
 
 CMD ["uv", "run", "app.py"]
